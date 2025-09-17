@@ -20,6 +20,7 @@ body {
 
 header {
   width: 1200px;
+  height: 60px;
   padding: 10px 50px;
   display: flex;
   align-items: center;
@@ -68,4 +69,10 @@ nav input[type='radio']:checked + label::after {
 
 nav input[type='radio']:checked + label {
   color: var(--blue);
+}
+
+@media (max-width: 1025px) {
+  header {
+    width: 1024px;
+  }
 }
